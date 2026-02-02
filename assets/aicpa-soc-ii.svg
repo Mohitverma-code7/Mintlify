@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="400" height="400" viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      .outer-text { font-family: Arial, Helvetica, sans-serif; font-size: 16px; letter-spacing: 2px; fill: #666; }
+      .center-text-big { font-family: Arial, Helvetica, sans-serif; font-size: 48px; font-weight: 700; fill: #666; }
+      .center-text-small { font-family: Arial, Helvetica, sans-serif; font-size: 40px; font-weight: 700; fill: #666; }
+    </style>
+    <path id="textcircle" d="
+      M 200,200
+      m -150,0
+      a 150,150 0 1,1 300,0
+      a 150,150 0 1,1 -300,0
+    "/>
+  </defs>
+
+  <!-- Outer dotted circle -->
+  <circle cx="200" cy="200" r="180" fill="none" stroke="#888" stroke-dasharray="2,4"/>
+
+  <!-- Inner dotted circle -->
+  <circle cx="200" cy="200" r="130" fill="none" stroke="#aaa" stroke-dasharray="2,4"/>
+
+  <!-- Curved text -->
+  <text class="outer-text">
+    <textPath href="#textcircle" startOffset="25%">
+      SOC FOR SERVICE ORGANIZATIONS / SERVICE ORGANIZATION
+    </textPath>
+  </text>
+
+  <!-- Center text -->
+  <text x="200" y="190" text-anchor="middle" class="center-text-big">AICPA</text>
+  <text x="200" y="240" text-anchor="middle" class="center-text-small">SOC II</text>
+</svg>
