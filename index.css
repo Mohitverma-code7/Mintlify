@@ -1102,7 +1102,12 @@ h2 {
     "Helvetica Neue",
     sans-serif;
 }
-
+.text-color {
+  background-color: rgb(242, 241, 241);
+  border-radius: 50px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
 
 
 
