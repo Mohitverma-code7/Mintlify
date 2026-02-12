@@ -58,6 +58,8 @@ Responsive layout using Flexbox & Grid
 
 Pure HTML & CSS (no frameworks)
 
+No Ai used
+
 
 # Screenshots
 
