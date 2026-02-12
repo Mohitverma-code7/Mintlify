@@ -35,6 +35,7 @@ Use Live Server in VS Code
     ├── images (.png, .jpg, .svg)
     └── videos (.mp4)
 
+
 # Features
 
 Hero section with CTA and email input
@@ -56,6 +57,7 @@ Fully designed footer with links and social icons
 Responsive layout using Flexbox & Grid
 
 Pure HTML & CSS (no frameworks)
+
 
 # Screenshots
 
